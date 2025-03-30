@@ -1,0 +1,23 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <div class="chat-container">
+      <h2 style="color: white; font-family: Georgia, 'Times New Roman', Times, serif; text-shadow: 0 6px 10px rgb(255, 255, 255);">🤖 AI Chat Agent</h2>
+
+      <div class="chat-box">
+        <textarea [(ngModel)]="userQuery" placeholder="Ask AI agent something..." rows="3" style="width: 98%;"></textarea>
+        <button (click)="sendQuery()" [disabled]="isLoading">
+          {{ isLoading ? 'Thinking...' : 'Send' }}
+        </button>
+      </div>
+
+      <div class="response-container" *ngIf="AIResponse">
+        <div class="ai-message" style="color: black; font-family:'Times New Roman', Times, serif;">
+          <strong style="font-family: Georgia, serif;">AI AGENT:</strong>
+          <p [innerHTML]="AIResponse"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

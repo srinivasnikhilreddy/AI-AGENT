@@ -1,0 +1,115 @@
+body {    
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed; 
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background: rgba(221, 135, 135, 0.678);
+    backdrop-filter: blur(10px);
+    background: url('https://www.neilsahota.com/wp-content/uploads/2023/12/AI-agents-1024x658.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .chat-container {
+    width: 420px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgb(255, 255, 255);
+    font-family: 'Arial', sans-serif;
+    background-color: transparent;
+    color: #ddd;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 22px;
+  }
+  
+  .chat-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-right: 100%;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  textarea:focus {
+    border-color: #007bff;
+  }
+  
+  button {
+    width: 100%;
+    background: linear-gradient(135deg, #6EC6FF, #007BFF);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #007BFF, #6EC6FF);
+    transform: scale(1.05); /* Slightly enlarges the button */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+  }
+  
+  
+  .response-container {
+    margin-top: 15px;
+  }
+  
+  .ai-message {
+    background: #f4f4f4;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .ai-message p {
+    margin: 0;
+    color: #333;
+    font-size: 15px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
