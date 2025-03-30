@@ -19,7 +19,32 @@ An intelligent To-Do application powered by **Groq's Llama 3**, built with **Nod
 - **Angular 18 (Standalone APIs, Routing in `app.routes.ts`)**
 
 🛠️ Future Enhancements :
+
 🔍 Search & Filtering
+
 📅 Task Prioritization
+
 📊 Analytics & Reports
+
 🌐 Multi-User Support
+
+
+ 🤡 API Endpoints :
+
+![Image](https://github.com/user-attachments/assets/b0e9cb88-87ec-4f60-97d3-4dde2f592030)
+
+
+
+![Image](https://github.com/user-attachments/assets/1c53cf56-43b4-4f1b-8368-6ec1bf66dec9)
+
+
+
+![Image](https://github.com/user-attachments/assets/db2e1194-7fcc-424f-a49c-ed607ac3eefb)
+
+
+
+📜 DATABASE : 
+
+![Image](https://github.com/user-attachments/assets/c6aa13e1-46be-4d58-9f13-9d287a96c2b1)
+
+
